@@ -63,47 +63,25 @@ Used tools:
 
 <h3 id="running">:computer: Project Installation</h3>
 
-<h4>
-	<strong>Installing Dependencies</strong>
-</h4>
+<h4><strong>Installing Dependencies & Running</strong></h4>
+
+<h6><strong>pnpm</strong></h6>
 
 ```
-yarn
+pnpm install && pnpm dev
 ```
 
-or
+<h6><strong>yarn</strong></h6>
 
 ```
-npm install
+yarn && yarn dev
 ```
 
-or
+<h6><strong>npm</strong></h6>
 
 ```
-pnpm install
+npm && npm run dev
 ```
-
-<h4>
-	<strong>Running</strong>
-</h4>
-
-```
-yarn dev
-```
-
-or
-
-```
-npm run dev
-```
-
-or
-
-```
-pnpm dev
-```
-
----
 
 <h3 id="author">:bust_in_silhouette: Author</h3>
 
