@@ -9,5 +9,7 @@ interface IRootTemplateProps {
 export default function RootTemplate({ children }: IRootTemplateProps) {
   const queryClient = new QueryClient();
 
-  return <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>;
+  return (
+    <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>
+  );
 }
