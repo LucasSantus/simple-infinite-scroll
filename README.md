@@ -9,7 +9,7 @@
 > This project was developed using Framework NextJS, React, TypeScript and TailwindCSS.
 
 The idea is:
-_"Create a simple project dev tree contents personal datas. Aiming to build the frontend of the application in order to promote learning in the area related to NextJS, React, TypeScript and TailwindCSS."_
+_"Create a simple project related to the functionality of a simple infinity scroll. With the objective of building the frontend of the application as a form of learning related to NextJS, React, TypeScript and TailwindCSS."_
 
 ---
 
@@ -49,7 +49,6 @@ This is a totally free project!
 Used tools:
 
 - [NextJS v13.4.4](https://nextjs.org/)
-- [Next Themes v0.2.1](https://github.com/pacocoursey/next-themes)
 - [CLSX v1.2.1](https://www.npmjs.com/package/clsx)
 - [Eslint v8.42.0](https://github.com/eslint/eslint)
 - [Lucide React v0.240.0](https://lucide.dev/)
@@ -57,7 +56,8 @@ Used tools:
 - [React v18.2.0](https://pt-br.reactjs.org/)
 - [TypeScript v5.1.3](https://www.typescriptlang.org/)
 - [TailwindCSS v3.3.2](https://tailwindcss.com/docs/installation)
-- [Framer Motion v10.12.16](https://www.npmjs.com/package/framer-motion)
+- [Tanstack Query v4.29.12](https://tanstack.com/query/v4/docs/react/installation)
+- [Mantine Hooks v6.0.13](https://mantine.dev/)
 
 ---
 
@@ -68,19 +68,31 @@ Used tools:
 <h6><strong>pnpm</strong></h6>
 
 ```
-pnpm install && pnpm dev
+pnpm install
+```
+
+```
+pnpm dev
 ```
 
 <h6><strong>yarn</strong></h6>
 
 ```
-yarn && yarn dev
+yarn
+```
+
+```
+yarn dev
 ```
 
 <h6><strong>npm</strong></h6>
 
 ```
-npm && npm run dev
+npm install
+```
+
+```
+npm run dev
 ```
 
 <h3 id="author">:bust_in_silhouette: Author</h3>
@@ -107,4 +119,4 @@ Thanks for visiting and good coding!<br />
 
 <h3 id="license">:memo: License</h3>
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/LucasSantus/dev-tree/blob/master/LICENSE) for better details.
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/LucasSantus/simple-infinite-scroll/blob/master/LICENSE) for better details.
