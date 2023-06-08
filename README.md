@@ -58,6 +58,7 @@ Used tools:
 - [TailwindCSS v3.3.2](https://tailwindcss.com/docs/installation)
 - [Tanstack Query v4.29.12](https://tanstack.com/query/v4/docs/react/installation)
 - [Mantine Hooks v6.0.13](https://mantine.dev/)
+- [Lucide React v0.241.0](https://lucide.dev/)
 
 ---
 
