@@ -4,24 +4,27 @@ import clsx from "clsx";
 import { ChevronUp } from "lucide-react";
 import React, { useEffect, useState } from "react";
 
-export const FloatingButton: React.FC = () => {
+interface FloatingButtonProps {}
+
+export const FloatingButton: React.FC<FloatingButtonProps> = () => {
   const [isShow, setIsShow] = useState(false);
 
-  function handleScroll() {
-    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    setIsShow(scrollTop > 400);
-  }
-
-  function scrollToTop() {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }
-
   useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop =
+        window.pageYOffset || document.documentElement.scrollTop;
+      setIsShow(scrollTop > 300);
+    };
+
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   return (
     <button

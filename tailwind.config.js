@@ -22,5 +22,5 @@ module.exports = {
     },
     extend: {},
   },
-  plugins: [require("tailwind-scrollbar")({ nocompatible: true })],
+  plugins: [],
 };
