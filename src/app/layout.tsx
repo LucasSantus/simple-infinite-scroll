@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={clsx("bg-black", inter.className)}>{children}</body>
+      <body className={clsx("h-screen", inter.className)}>{children}</body>
     </html>
   );
 }
